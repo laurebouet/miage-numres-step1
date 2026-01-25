@@ -97,7 +97,7 @@ Ce TP1 doit permettre de  choisir la  stack d'implementation de l'api. Le choix 
 ![Capture d'écran](assets/GitHubCodeSpaceSettup.png)
 1. Attendez environ 1 à 2 minutes que l'environnement se construise (le système installe Java, Node.js et les extensions nécessaires automatiquement).
 
-Sinon vous pouvez clicquer ici   [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new)
+Sinon vous pouvez clicquer ici  [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=${github.repository_id})
 
 > [!TIP]
 > Fermez la fenêtre de Copilot, vous n'en avez pas besoin.
