@@ -28,7 +28,7 @@ Vous avez 4 séances de TD/TP pour  produire un site web qui permettent de répo
 
 # Notation
  - 2pt  de rendu par séance
- - 12 pt de QCM/Questions ouvertes lors du dernier tp  (1H dernière seance)
+ - 12 pt de Questions ouvertes lors du dernier tp  (1H dernière seance)
 
 > [!WARNING]
 > Noubliez pas de faire votre pullRequest en fin de td/tp
@@ -39,10 +39,10 @@ Vous avez 4 séances de TD/TP pour  produire un site web qui permettent de répo
 # Environnement
 L'ensemble des  4 TD/TP sont à réaliser sur **_Gitpod_**.
 
-**_Gitpod_** est une plateforme de développement cloud qui permet de configurer des environnements de développement prêts à l’emploi pour tout projet, directement depuis un dépôt Git.
+**_Ona (anciennement Gitpod)_** est une plateforme de développement cloud qui permet de configurer des environnements de développement prêts à l’emploi pour tout projet, directement depuis un dépôt Git.
  Elle automatise la préparation des environnements (dépendances, configurations, etc.),
   réduisant ainsi le temps d’installation et les problèmes de compatibilité.
-  Grâce à son intégration avec des outils comme GitHub, GitLab, et Bitbucket, Gitpod propose des espaces de travail reproductibles et éphémères.
+  Grâce à son intégration avec des outils comme GitHub, GitLab, et Bitbucket, Ona propose des espaces de travail reproductibles et éphémères.
 
 
 # Déroulement
@@ -57,7 +57,7 @@ Ainsi pour chacun des TD/TPS, il faudra:
 1. Proposer vos modifications sur le repo. parent (**PullRequest**)
 
 # Creation des comptes
-Vous allez créer 2 comptes: un sur GitHub et un sur GitPod. Ces comptes seront utilisés lors des 4TD/TP.
+Vous allez créer 2 comptes: un sur GitHub et un sur Ona. Ces comptes seront utilisés lors des 4TD/TP.
 
 ## GitHub
 Dans cette section nous créons un compte sur Github. Si vous en avez déjà vous pouvez passer à l'étape suivante.
@@ -73,21 +73,13 @@ Dans cette section nous créons un compte sur Github. Si vous en avez déjà vou
 ### Creation compte
 1. Se  rendre sur https://app.gitpod.io/login, selectionner **Continue with Github** 
 ![Github1](assets/GitPod1.jpg)
-1. Authoriser Gitpod à accèder à votre compte Github
+1. Se connecter avec votre compte Github (si vous ne l'êtes pas déjà)
+![Github1](assets/GitPod1b.png)
+1. Authoriser Gitpod Flex by Ona  à accèder à votre compte Github
 ![Github1](assets/GitPod2.png)
-1. Sélectionner la formule à 1Ohrs/mois
-![Github1](assets/GitPod3.png)
-1. Préciser que vous etes étudiant
-![Github1](assets/GitPod4.png)
-### Configuration du compte
-Il faut ajouter à votre compte gitpod le droit de pouvoir  lire&ecrire sur vos repos github.
-1. Se connecter à votre compte Gitpod
-1. Se rendre  dans votre paramètres de comptes
-![Github1](assets/GitPodSettings1.png)
-1. Editer les paramètres de vote liaison à Github dans le menu 'Git Provider'
-![Github1](assets/GitPodSettings2.png)
-1. Ajouter le droit de lecture/ecriture à vos repos à travers Gitpod
-![Github1](assets/GitPodSettings3.png)
+1. Vous arrivez à cet écran, conserver cet onglet ouvert dans votre navigateur 
+![Github1](assets/GitPod2Pause.png)
+
 
 # Fork du projet
 L'objectif est de créer une copie du projet 'miage-numres-step1' sur votre compte github.
@@ -98,6 +90,7 @@ L'objectif est de créer une copie du projet 'miage-numres-step1' sur votre comp
 ![Capture d'écran](assets/Fork1.png)
 ![Capture d'écran](assets/Fork2.png)
 
+
 # TP1 - Stack Back-End
 L'architecture   générale de  l'application  Burger Quizz est la suivante :
 ![Capture d'écran](assets/Archi.png)
@@ -107,9 +100,20 @@ Une application web consomme une API Rest  qui s'appuie sur une base de données
 Ce TP1 doit permettre de  choisir la  stack d'implementation de l'api. Le choix est à faire entre **Springboot** et **Quarkus**.
 
 
-# Utiliser gitpod
+# Utiliser Gitpod Flex
 
-Pour utiliser  **GitPod** avec votre projet forké, il suffit d'ouvrir  l'url suivant dans votre navigateur :
+1. Revenez à votre onglet **Git pod Flex**
+1. Autorisez **Ona Hosted Compute** à accéder à vos infos en lecture, vos repos & vos workflow github
+![Capture d'écran](assets/GitPodAuthorizeRepo.png)
+1. La liaison entre vos comptes Ona/Github est fonctionnelle
+![Capture d'écran](assets/GitPodConfirm.png)
+1. Se rendre à l'url : https://app.gitpod.io/onboarding/ona/select-your-repository
+1. Selectionnez le repo **XXX/**
+![Capture d'écran](assets/GitPodSelectRepo.png)
+1. Sautez l'étape d'utilisation de l'IA
+![Capture d'écran](assets/GitPodSkipIA.png)
+
+Pour utiliser  **GitPod Flex** avec votre projet forké, il suffit d'ouvrir  l'url suivant dans votre navigateur :
 **https://gitpod.io/#** + **URL_REPO_GITHUB**
 
 Avec un repo _https://github.com/miage3-ae/miage-numres-step1_ alors l'url est : **https://gitpod.io/#https://github.com/miage3-ae/miage-numres-step1**

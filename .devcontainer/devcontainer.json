@@ -1,0 +1,33 @@
+{
+  "name": "Environnement MIAGE (Java & Vue)",
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  
+  // Configuration des fonctionnalités (Features)
+  "features": {
+    "ghcr.io/devcontainers/features/java:1": {
+      "version": "17", // Vous pouvez mettre "21" selon vos besoins
+      "installMaven": "true",
+      "installGradle": "true"
+    },
+    "ghcr.io/devcontainers/features/node:1": {
+      "version": "20"
+    }
+  },
+
+  // Personnalisation de VS Code pour les étudiants
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "vscjava.vscode-java-pack",    // Support complet Java (IntelliCode, Debugger)
+        "Vue.volar",                   // Support Vue.js
+        "dsznajder.es7-react-js-snippets"
+      ]
+    }
+  },
+
+  // Ports à ouvrir automatiquement
+  "forwardPorts": [5173, 8080],
+
+  // Message de bienvenue ou installation de dépendances au démarrage
+  "postCreateCommand": "npm install" 
+}
