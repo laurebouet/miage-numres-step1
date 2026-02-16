@@ -24,8 +24,8 @@
 Vous avez 4 séances de TD/TP pour  produire un site web qui permettent de répondre à des questions et  donne le score.
 
 # Notation
- - 2pt  de rendu par séance
- - 12 pt de Questions ouvertes lors du dernier tp  (1H dernière seance)
+ - 3pt de rendu par séance
+ - 12 pt de Questions ouvertes lors du dernier tp (40min dernière seance)
 
 > [!WARNING]
 > Noubliez pas de faire votre pullRequest en fin de td/tp
@@ -94,7 +94,7 @@ Ce TP1 doit permettre de  choisir la  stack d'implementation de l'api. Le choix 
 ![Capture d'écran](assets/GitHubCodeSpaceSettup.png)
 1. Attendez environ 1 à 2 minutes que l'environnement se construise (le système installe Java, Node.js et les extensions nécessaires automatiquement).
 
-Sinon vous pouvez clicquer ici  [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=${github.repository_id})
+Sinon vous pouvez cliquer ici  [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=${github.repository_id})
 
 > [!TIP]
 > Fermez la fenêtre de Copilot, vous n'en avez pas besoin.
